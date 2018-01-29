@@ -9,7 +9,7 @@ Cowsay is a great tool for getting animals to speak.  Like Mr. Ed, but with a co
 Use -m for your message and to have x for the eyes, run with -x.  For example:
 
 ```shell
-cowsay -x You have died dysentery
+cowsay -d You have died dysentery
 ```
 
 Results:
