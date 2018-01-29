@@ -12,4 +12,4 @@ jobs:
       - run:
           name: Run SimDem on main README.md
           command: |
-            simdem -m test README.md
+            simdem -d -m test README.md
