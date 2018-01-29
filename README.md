@@ -15,14 +15,14 @@ Before using Cowsay, make sure to install it.
 To have cowsay's cow to have x for the eyes, run this example:
 
 ```shell
-cowsay -d You have died dysentery
+cowsay -x You have died of dysentery
 ```
 
 Results:
 
 ```shell
  _________________________
-< You have died dysentery >
+< You have died of dysentery >
  -------------------------
         \   ^__^
          \  (xx)\_______
