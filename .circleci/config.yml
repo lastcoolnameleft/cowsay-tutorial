@@ -6,5 +6,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Print the Current Time
-          command: simdem -m test README.md
+          name: Run SimDem on main README.md
+          command: |
+            simdem -m test README.md
