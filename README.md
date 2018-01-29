@@ -4,9 +4,16 @@ Cowsay is a great tool for getting animals to speak.  Like Mr. Ed, but with a co
 
 [![CircleCI](https://circleci.com/gh/lastcoolnameleft/cowsay-tutorial.svg?style=svg)](https://circleci.com/gh/lastcoolnameleft/cowsay-tutorial)
 
+## Setup
+
+```shell
+apt-get install cowsay
+export PATH=/usr/games:$PATH
+```
+
 ## Dead Cow
 
-Use -m for your message and to have x for the eyes, run with -x.  For example:
+Use to have x for the eyes, run with -d.  For example:
 
 ```shell
 cowsay -d You have died dysentery
@@ -15,7 +22,6 @@ cowsay -d You have died dysentery
 Results:
 
 ```shell
-
  _________________________
 < You have died dysentery >
  -------------------------
@@ -24,5 +30,4 @@ Results:
             (__)\       )\/\
              U  ||----w |
                 ||     ||
-
 ```
