@@ -16,7 +16,7 @@ Before using Cowsay, make sure to install it.
 To have cowsay's cow to have x for the eyes, run with -x.  For example:
 
 ```shell
-cowsay -d You have died dysentery
+cowsay -x You have died dysentery
 ```
 
 Results:
