@@ -8,7 +8,7 @@ Cowsay is a great tool for getting animals to speak.  Like Mr. Ed, but with a co
 
 Before using Cowsay, make sure to install it.
 
-* [Ubuntu Install](./prerequisite.md)
+* [Ubuntu Install](prerequisite.md)
 
 
 ## Dead Cow
@@ -16,7 +16,7 @@ Before using Cowsay, make sure to install it.
 To have cowsay's cow to have x for the eyes, run with -x.  For example:
 
 ```shell
-cowsay -d You have died dysentery
+cowsay -x You have died dysentery
 ```
 
 Results:
