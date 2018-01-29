@@ -6,6 +6,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Dump SimDem for README.md
+          command: |
+            simdem -m dump README.md
+      - run:
           name: Run SimDem on main README.md
           command: |
             simdem -m test README.md
